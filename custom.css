@@ -1,4 +1,4 @@
-/* Original CSS
+/* Original CSS 
 
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 
@@ -23,6 +23,7 @@ body {
 
 .marginless-listgroup {
     margin-bottom: 0px;
+
 }
 
 .list-group-item {
@@ -83,7 +84,7 @@ body {
 }
 
 .proceed-button {
-    background-color: #72529b;
+    background-color: red;
     color: #FFFFFF;
     border: 0px;
     border-bottom-right-radius: 4px;
@@ -364,12 +365,24 @@ button[disabled], html input[disabled] {
   }
 }
 
-*/
-
 .list-group-item.mp_order_ID,
 .list-group-item.mp_currency,
+*/
+.list-group-item.mp_channel,
+.list-group-item.mp_bill_name,
 .list-group-item.mp_bill_email,
 .list-group-item.mp_bill_mobile,
-.list-group-item.mp_channel {
+.list-group-item.mp_bill_description,
+.list-group-item.mp_credit_card_country,
+.list-group-item.mp_credit_card_bank
+{
     display: none;
 }
+/*
+.barcode-container {
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+} */
